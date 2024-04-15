@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiDockerExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84add132b1ca6607f6f13e563f7661df05d17c1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db299028c601f8d84bfef4d98cab3b9f1e789221")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiDockerExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiDockerExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
