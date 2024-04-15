@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|c:\\users\\cristhian.salazar\\development\\apidockerexample\\apidockerexample\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|solutionrelative:apidockerexample\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|c:\\users\\cristhian.salazar\\development\\apidockerexample\\apidockerexample\\.choreo\\endpoints.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|solutionrelative:apidockerexample\\.choreo\\endpoints.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|c:\\users\\cristhian.salazar\\development\\apidockerexample\\apidockerexample\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{804174C9-0115-4C22-8D5C-5DAA1F28A58C}|ApiDockerExample\\ApiDockerExample.csproj|solutionrelative:apidockerexample\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\.gitignore",
+              "RelativeDocumentMoniker": "ApiDockerExample\\.gitignore",
+              "ToolTip": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\.gitignore",
+              "RelativeToolTip": "ApiDockerExample\\.gitignore",
+              "ViewState": "AQIAANYAAAAAAAAAAAAqwI0BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T12:38:52.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "endpoints.yaml",
+              "DocumentMoniker": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\.choreo\\endpoints.yaml",
+              "RelativeDocumentMoniker": "ApiDockerExample\\.choreo\\endpoints.yaml",
+              "ToolTip": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\.choreo\\endpoints.yaml",
+              "RelativeToolTip": "ApiDockerExample\\.choreo\\endpoints.yaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-12T17:21:47.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\Dockerfile",
               "RelativeDocumentMoniker": "ApiDockerExample\\Dockerfile",
               "ToolTip": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\Dockerfile",
               "RelativeToolTip": "ApiDockerExample\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-04-03T15:24:55.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\cristhian.salazar\\Development\\ApiDockerExample\\ApiDockerExample\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ApiDockerExample\\Controllers\\WeatherForecastController.cs",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "ApiDockerExample\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwBQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T16:24:58.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T16:24:58.942Z"
             }
           ]
         }
