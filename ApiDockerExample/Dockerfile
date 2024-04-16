@@ -2,10 +2,10 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
-ENV ASPNETCORE_URLS="http://+:80;https://+:443"
+ENV ASPNETCORE_URLS="http://+:8080;https://+:8081"
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 8081
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
