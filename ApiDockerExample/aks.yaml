@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-api
+  template:
+    metadata:
+      labels:
+        app: test-api
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: test-api
+        image: ceibacrisacr.azurecr.io/test/pruebapez:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: ORDER_QUEUE_HOSTNAME
+          value: "rabbitmq"
+        - name: ORDER_QUEUE_PORT
+          value: "5672"
+        - name: ORDER_QUEUE_USERNAME
+          value: "username"
+        - name: ORDER_QUEUE_PASSWORD
+          value: "password"
+        - name: ORDER_QUEUE_NAME
+          value: "orders"
+        - name: FASTIFY_ADDRESS
+          value: "0.0.0.0"
+        resources:
+          requests:
+            cpu: 1m
+            memory: 50Mi
+          limits:
+            cpu: 75m
+            memory: 128Mi
+        startupProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          failureThreshold: 3
+          initialDelaySeconds: 15
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          failureThreshold: 3
+          initialDelaySeconds: 3
+          periodSeconds: 5
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          failureThreshold: 5
+          initialDelaySeconds: 3
+          periodSeconds: 3
